@@ -1,0 +1,4 @@
+target/
+.metadata/
+allure-results
+.DS_Store

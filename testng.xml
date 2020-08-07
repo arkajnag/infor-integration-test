@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Infor Car Rental Project Test Suite" parallel="classes">
+    <test name="Infor Car Rental Project - User Test Cases">
+        <classes>
+            <class name="io.CarPortal.TestCase.UserServiceTest" />
+            <class name="io.CarPortal.TestCase.BookingServiceTest" />
+            <class name="io.CarPortal.TestCase.CarServiceTest" />
+        </classes>
+    </test>
+</suite>
